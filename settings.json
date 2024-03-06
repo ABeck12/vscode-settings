@@ -20,8 +20,8 @@
     "markdown.preview.fontFamily": "Jetbrains Mono",
     "editor.inlayHints.fontFamily": "Jetbrains Mono",
     // Font size
-    // "editor.fontSize": 14,
-    // "terminal.integrated.fontSize": 14,
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
     // ui
     "editor.minimap.enabled": false,
     "editor.scrollbar.vertical": "auto",
