@@ -53,7 +53,7 @@
         "fontSize": 12
     },
     "apc.stylesheet": {
-        ".editor-actions": "margin: auto 170px auto 0;background: #ffffff0f; height: 26px !important; border-radius: 4px; padding: 0 0 0 4px !important",
+        // ".editor-actions": "margin: auto 170px auto 0;background: #ffffff0f; height: 26px !important; border-radius: 4px; padding: 0 0 0 4px !important",
         "div.tab[aria-selected='true'] > .tab-border-top-container": "display: block !important; height: 2.5px; width: 100%; position: absolute; left: 0; background: linear-gradient(to right, #06f, #0af); box-shadow: 0 2px 10px #08f; z-index: 10",
         ".tabs-border-bottom::after": "background: transparent !important",
         ".monaco-workbench .part.statusbar>.items-container>.statusbar-item.remote-kind": "background: transparent; color: #a7b0f3",
@@ -64,7 +64,8 @@
     },
 
     "apc.imports": [
-        "file:///C:\\Users\\Alden\\OneDrive\\Documents\\vscode_config\\resize-quickinput-widget.js"
+        "file:///C:\\Users\\Alden\\OneDrive\\Documents\\vscode_config\\resize-quickinput-widget.js",
+        "file:///C:\\Users\\Alden\\OneDrive\\Documents\\vscode_config\\filetree.css"
     ],
 
 
@@ -76,6 +77,9 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorStyle": "block",
+
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 20,
 
 
     // ==============================================================================
@@ -140,4 +144,10 @@
     "editor.stickyScroll.enabled": false,
     "workbench.tree.enableStickyScroll": false,
     // // "workbench.tree.renderIndentGuides": "always"
+
+
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#c09553"
+    },
+
 }
