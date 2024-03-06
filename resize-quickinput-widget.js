@@ -44,11 +44,12 @@ var styleElement = document.createElement("style");
 var styles = `
   .quick-input-widget {
     box-shadow: 0 5px 10px rgba(0,0,0,0), 0 0 0 100vw rgba(0,0,0,0.15) !important;
-    top: 80px !important;
-    // width: 50% !important;
-    // margin-left: 0 !important;
-    // left: 25% !important;
-    // overflow-x: auto !important;
+    top: 200px !important;
+
+    width: 50% !important;
+    margin-left: 0 !important;
+    left: 25% !important;
+    overflow-x: auto !important;
   }
   .quick-input-widget .monaco-inputbox {
     padding: 10px !important;
