@@ -9,6 +9,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.color": "#c09553",
     "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.hidesExplorerArrows": true,
     // Change font
     "editor.fontFamily": "Jetbrains Mono",
     "scm.inputFontFamily": "Jetbrains Mono",
@@ -125,7 +126,7 @@
     "git.enableSmartCommit": true,
     "explorer.compactFolders": false,
     "workbench.startupEditor": "none",
-    "update.mode": "none",
+    "update.mode": "default",
     // "workbench.settings.applyToAllProfiles": [
     //     "editor.formatOnType"
     // ],
@@ -148,6 +149,9 @@
 
     "workbench.colorCustomizations": {
         "tree.indentGuidesStroke": "#c09553"
+    },
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
     },
 
 }
