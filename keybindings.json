@@ -12,12 +12,32 @@
     },
     {
         "key": "alt+h",
-        "command": "cursorRight",
+        "command": "cursorLeft",
         "when": "editorTextFocus"
     },
     {
         "key": "alt+l",
-        "command": "cursorLeft",
+        "command": "cursorRight",
         "when": "editorTextFocus"
     },
+    {
+        "key": "j",
+        "command": "list.focusDown",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "k",
+        "command": "list.focusUp",
+        "when": "explorerViewletFocus"
+    }
+    // {
+    //     "key": "ctrl+w",
+    //     "command": "workbench.action.closeActiveEditor",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "ctrl+w",
+    //     "command": "workbench.action.closeActiveEditor",
+    //     "when": "editorTextFocus"
+    // },
 ]
