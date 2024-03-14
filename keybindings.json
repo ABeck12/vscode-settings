@@ -29,7 +29,22 @@
         "key": "k",
         "command": "list.focusUp",
         "when": "explorerViewletFocus"
+    },
+    {
+        "key": "h",
+        "command": "list.collapse",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.goToTypeDefinition",
+        "when": "editorTextFocus"
     }
+    // {
+    //     "key": "l",
+    //     "command": "list.expand",
+    //     "when": "explorerViewletFocus"
+    // }
     // {
     //     "key": "ctrl+w",
     //     "command": "workbench.action.closeActiveEditor",
