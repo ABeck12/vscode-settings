@@ -5,7 +5,7 @@
     // open json editor for settings
     // "workbench.settings.editor": "json",
     // Theme
-    "workbench.colorTheme": "PyCharm Dark+ Theme",
+    "workbench.colorTheme": "PyCharm Night Theme",
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.color": "#c09553",
     "material-icon-theme.folders.theme": "classic",
@@ -21,7 +21,7 @@
     "markdown.preview.fontFamily": "Jetbrains Mono",
     "editor.inlayHints.fontFamily": "Jetbrains Mono",
     // Font size
-    // "editor.fontSize": 12, //14 is default
+    "editor.fontSize": 12, //14 is default
     // "terminal.integrated.fontSize": 12,
     // ui
     "workbench.layoutControl.enabled": false,
@@ -78,8 +78,19 @@
     "workbench.editor.wrapTabs": true,
     "breadcrumbs.enabled": false,
     "workbench.colorCustomizations": {
+        // Remove Shadows
         "scrollbar.shadow": "#ffffff00",
-        "widget.shadow": "#ffffff00"
+        "widget.shadow": "#ffffff00",
+        // Custom colors
+        "[PyCharm Night Theme]": {
+            "sideBar.foreground": "#a9b7c6",
+            "list.hoverForeground": "#a9b7c6",
+            "activityBar.foreground": "#a9b7c6",
+            // "statusBar.foreground": "#a9b7c6"
+        },
+        // "sideBar.foreground": "#ffffff",
+        // "list.hoverForeground": "#ffffff",
+        // "statusBar.background": "#333333"
     },
     "git.countBadge": "off",
     "explorer.compactFolders": false,
