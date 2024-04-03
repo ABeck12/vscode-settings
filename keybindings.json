@@ -58,5 +58,9 @@
     {
         "key": "ctrl+alt+shift+e",
         "command": "solutionExplorer.focus",
+    },
+    {
+        "key": "ctrl+alt+,",
+        "command": "workbench.action.openSettingsJson"
     }
 ]
