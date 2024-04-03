@@ -20,26 +20,26 @@
         "command": "cursorRight",
         "when": "editorTextFocus"
     },
+    // {
+    //     "key": "j",
+    //     "command": "list.focusDown",
+    //     "when": "explorerViewletFocus"
+    // },
+    // {
+    //     "key": "k",
+    //     "command": "list.focusUp",
+    //     "when": "explorerViewletFocus"
+    // },
+    // {
+    //     "key": "h",
+    //     "command": "list.collapse",
+    //     "when": "explorerViewletFocus"
+    // },
     {
-        "key": "j",
-        "command": "list.focusDown",
-        "when": "explorerViewletFocus"
-    },
-    {
-        "key": "k",
-        "command": "list.focusUp",
-        "when": "explorerViewletFocus"
-    },
-    {
-        "key": "h",
-        "command": "list.collapse",
-        "when": "explorerViewletFocus"
-    },
-    {
-        "key": "ctrl+d",
-        "command": "editor.action.goToTypeDefinition",
+        "key": "ctrl+y",
+        "command": "editor.action.revealDefinition",
         "when": "editorTextFocus"
-    }
+    },
     // {
     //     "key": "l",
     //     "command": "list.expand",
@@ -55,4 +55,8 @@
     //     "command": "workbench.action.closeActiveEditor",
     //     "when": "editorTextFocus"
     // },
+    {
+        "key": "ctrl+alt+shift+e",
+        "command": "solutionExplorer.focus",
+    }
 ]
