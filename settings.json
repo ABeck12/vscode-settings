@@ -3,10 +3,11 @@
     //                                    CUSTOM
     // ==============================================================================
     // open json editor for settings
-    // "workbench.settings.editor": "json",
+    "workbench.settings.editor": "json",
     // Theme
     "workbench.colorTheme": "PyCharm Night Theme",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
     "material-icon-theme.folders.color": "#c09553",
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.hidesExplorerArrows": true,
@@ -21,7 +22,7 @@
     "markdown.preview.fontFamily": "Jetbrains Mono",
     "editor.inlayHints.fontFamily": "Jetbrains Mono",
     // Font size
-    "editor.fontSize": 12, //14 is default
+    "editor.fontSize": 14, //14 is default
     // "terminal.integrated.fontSize": 12,
     // ui
     "workbench.layoutControl.enabled": false,
@@ -46,12 +47,12 @@
     "apc.monospace.font.family": "Jetbrains Mono",
     "apc.statusBar": {
         "position": "editor-bottom",
-        // "height": 28, //28
+        // "height": 22, //28
         "fontSize": 12
     },
     "apc.sidebar.titlebar": {
         "fontSize": 12,
-        // "height": 22,
+        "height": 22,
     },
     "apc.stylesheet": {
         // ".editor-actions": "margin: auto 140px auto 0;background: #ffffff0f; height: 22px !important; border-radius: 4px; padding: 0 0 0 4px !important",
@@ -62,10 +63,11 @@
         ".inline-title-bar:not(.horizontal-activitybar) .monaco-workbench div.activitybar.bordered.left .content": "border-right: 1px solid #0003 !important",
         ".monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.checked .active-item-indicator:before": "border: none !important; width: 2.5px; background: linear-gradient(to top, #06f, #0af); box-shadow: 5px 0 15px #08f",
         ".custom-activitybar:not(.horizontal-activitybar) div.monaco-workbench div.activitybar>div.content div.monaco-action-bar ul.actions-container li.action-item": "margin-top: 0 !important",
+        // ".split-view-view>.sidebar> .title > .title-label" : " visibility: hidden !important;"
     },
     "apc.imports": [
         "file:///C:\\Users\\Alden\\OneDrive\\Documents\\vscode_config\\resize-quickinput-widget.js",
-        "file:///C:\\Users\\Alden\\OneDrive\\Documents\\vscode_config\\filetree.css"
+        "file:///C:\\Users\\Alden\\OneDrive\\Documents\\vscode_config\\filetree.css",
     ],
     // Editor Settings
     "editor.minimap.enabled": false,
@@ -86,11 +88,17 @@
             "sideBar.foreground": "#a9b7c6",
             "list.hoverForeground": "#a9b7c6",
             "activityBar.foreground": "#a9b7c6",
-            // "statusBar.foreground": "#a9b7c6"
-        },
-        // "sideBar.foreground": "#ffffff",
-        // "list.hoverForeground": "#ffffff",
-        // "statusBar.background": "#333333"
+            "gitDecoration.ignoredResourceForeground": "#53585e",
+            "list.errorForeground": "#f66",
+            "list.warningForeground": "#a9b7c6",
+            // "scrollbarSlider.background": "#00000000",
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[PyCharm Night Theme]": {
+            // "keywords": "#cc7832",
+            // "types": "#FF0000"
+        }
     },
     "git.countBadge": "off",
     "explorer.compactFolders": false,
@@ -104,6 +112,19 @@
     //     "editor.formatOnType": true,
     //     "editor.formatOnSave": true,
     // },
+    // "editor.formatOnSave": true,
+    "[cpp]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+    },
+    "[c]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+    },
+    "[rust]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+    },
     "explorer.confirmDelete": false,
     "todohighlight.isEnable": true,
     "files.associations": {
@@ -112,7 +133,14 @@
         ".cpp": "C++",
         ".hpp": "C++",
         ".c": "C++",
-        "*.dbscn": "yaml"
+        // For Daybreak
+        "*.scene": "yaml",
+        "*.subsprite": "yaml",
+        "*.anim": "yaml",
+        "*.controller": "yaml",
+        "*.sprite": "yaml",
+        "*.manager": "yaml",
+        "*.registry": "yaml",
     },
     "explorer.confirmDragAndDrop": false,
     "security.workspace.trust.untrustedFiles": "open",
@@ -141,21 +169,27 @@
     // "C_Cpp.codeAnalysis.updateDelay": 500,
     "editor.renderWhitespace": "none",
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.inlayHints.enabled": "off",
-    "editor.formatOnType": true,
+    // "editor.inlayHints.enabled": "off",
+    // "editor.formatOnType": true,
     "C_Cpp.intelliSenseEngine": "disabled",
-    "editor.formatOnSave": true,
+    // "editor.formatOnSave": true,
     "clangd.arguments": [
         "--header-insertion=never"
     ],
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
     "editor.stickyScroll.enabled": false,
     "workbench.tree.enableStickyScroll": false,
     // "workbench.tree.renderIndentGuides": "always",
-    "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
-    },
     "window.commandCenter": false,
     "update.enableWindowsBackgroundUpdates": false,
+    "editor.scrollbar.horizontalScrollbarSize": 2.5,
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    // "editor.scrollBeyondLastLine": false,
+    "workbench.list.fastScrollSensitivity": 10,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "vssolution.solutionExplorerIcons": "current-theme",
+    // "vssolution.showMode": "explorer",
+    "vssolution.trackActiveItem": true,
+    // "editor.scrollbar.vertical": "hidden",
     // "workbench.editor.editorActionsLocation": "hidden",
 }
