@@ -3,7 +3,7 @@
     //                                    CUSTOM
     // ==============================================================================
     // open json editor for settings
-    "workbench.settings.editor": "json",
+    // "workbench.settings.editor": "json",
     // Theme
     "workbench.colorTheme": "PyCharm Night Theme",
     "workbench.iconTheme": "material-icon-theme",
@@ -108,10 +108,11 @@
     //
     //
     // ==============================================================================
-    // "[python]": {
-    //     "editor.formatOnType": true,
-    //     "editor.formatOnSave": true,
-    // },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+        // "editor.formatOnType": true,
+        // "editor.formatOnSave": true,
+    },
     // "editor.formatOnSave": true,
     "[cpp]": {
         "editor.formatOnType": true,
@@ -190,6 +191,12 @@
     "vssolution.solutionExplorerIcons": "current-theme",
     // "vssolution.showMode": "explorer",
     "vssolution.trackActiveItem": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "editor.cursorSurroundingLines": 10,
+    // "editor.lineNumbers": "relative",
+    // "clangd.detectExtensionConflicts": false,
     // "editor.scrollbar.vertical": "hidden",
     // "workbench.editor.editorActionsLocation": "hidden",
 }
