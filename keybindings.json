@@ -56,8 +56,24 @@
     //     "when": "editorTextFocus"
     // },
     {
-        "key": "ctrl+alt+shift+e",
-        "command": "solutionExplorer.focus",
+        "key": "ctrl+up",         // whatever keybinding you want
+        "command": "cursorMove",
+        "args": {
+            "to": "up",
+            "by": "line",
+            "value": 10         // change this if you want
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+down",        // whatever keybinding you want
+        "command": "cursorMove",
+        "args": {
+            "to": "down",
+            "by": "line",
+            "value": 10         // change
+        },
+        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+alt+,",
