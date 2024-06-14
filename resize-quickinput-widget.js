@@ -50,11 +50,15 @@ var styles = `
     margin-left: 0 !important;
     left: 25% !important;
     overflow-x: auto !important;
+
+    border-radius: 10px !important;
+    // border: 1px solid rgba(128, 128, 128, 0.5) !important;
   }
   .quick-input-widget .monaco-inputbox {
     padding: 10px !important;
     border-radius: 5px !important;
     font-size: 14px !important;
+    margin-top: -1px
   }
   .quick-input-widget .quick-input-action {
     padding-top: 10px !important;
@@ -67,9 +71,10 @@ var styles = `
     padding: 5px !important;
     height: auto !important;
   }
-  .quick-input-widget .quick-input-list-entry {
+    .quick-input-widget .quick-input-list-entry {
     position: relative;
     padding: 0px 5px 0px 15px;
+
   }
   .quick-input-widget .quick-input-list-entry .codicon[class*=codicon-] {
     font-size: 15px;
