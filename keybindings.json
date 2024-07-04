@@ -20,61 +20,60 @@
         "command": "cursorRight",
         "when": "editorTextFocus"
     },
-    // {
-    //     "key": "j",
-    //     "command": "list.focusDown",
-    //     "when": "explorerViewletFocus"
-    // },
-    // {
-    //     "key": "k",
-    //     "command": "list.focusUp",
-    //     "when": "explorerViewletFocus"
-    // },
-    // {
-    //     "key": "h",
-    //     "command": "list.collapse",
-    //     "when": "explorerViewletFocus"
-    // },
+    
     {
         "key": "ctrl+y",
         "command": "editor.action.revealDefinition",
         "when": "editorTextFocus"
     },
-    // {
-    //     "key": "l",
-    //     "command": "list.expand",
-    //     "when": "explorerViewletFocus"
-    // }
-    // {
-    //     "key": "ctrl+w",
-    //     "command": "workbench.action.closeActiveEditor",
-    //     "when": "editorTextFocus"
-    // },
-    // {
-    //     "key": "ctrl+w",
-    //     "command": "workbench.action.closeActiveEditor",
-    //     "when": "editorTextFocus"
-    // },
+
     {
         "key": "ctrl+up",         // whatever keybinding you want
         "command": "cursorMove",
-        "args": {
-            "to": "up",
-            "by": "line",
-            "value": 10         // change this if you want
+        "args":{
+            "to":"prevBlankLine"
         },
         "when": "editorTextFocus"
     },
     {
         "key": "ctrl+down",        // whatever keybinding you want
         "command": "cursorMove",
-        "args": {
-            "to": "down",
-            "by": "line",
-            "value": 10         // change
+        "args":{
+            "to":"nextBlankLine",
         },
         "when": "editorTextFocus"
     },
+    {
+        "key": "ctrl+shift+up",         // whatever keybinding you want
+        "command": "cursorMove",
+        "args":{
+            "to":"prevBlankLine",
+            "select": true
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+down",        // whatever keybinding you want
+        "command": "cursorMove",
+        "args":{
+            "to":"nextBlankLine",
+            "select": true
+        },
+        "when": "editorTextFocus"
+    },
+
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+
+
+
+
     {
         "key": "ctrl+alt+,",
         "command": "workbench.action.openSettingsJson"
