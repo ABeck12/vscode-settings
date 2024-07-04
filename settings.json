@@ -91,10 +91,6 @@
         // Statusbar
         ".statusbar #status\\.host": "display: block; !important; height: 18px; margin: 2px; border-radius: 30px",    
             // Makes remote status bar item have transparent background
-        // ".monaco-workbench .part.statusbar>.items-container>.statusbar-item.remote-kind": "background: transparent; color: #a7b0f3", 
-        // ".monaco-workbench .part.statusbar>.items-container": "background: transparent; color: #a7b0f3", 
-        // ".monaco-workbench .part.statusbar>.items-container>.statusbar-item.remote-kind": "background: #cc7832; color: #1a1a1a",  // orange
-        // ".monaco-workbench .part.statusbar>.items-container>.statusbar-item.remote-kind": "background: #a7b0f3; color: #1a1a1a", // light purple/white
         ".monaco-workbench .part.statusbar>.items-container>.statusbar-item.remote-kind": "background: #9473a6; color: #1a1a1a",  // purple
 
         // Turn off inspector title
@@ -141,12 +137,16 @@
     "workbench.list.fastScrollSensitivity": 10,
     "editor.stickyScroll.scrollWithEditor": false,    
 
+
     "workbench.tree.renderIndentGuides": "none",
     "workbench.tree.indent": 20,
     "workbench.editor.wrapTabs": true,
     "breadcrumbs.enabled": false,
     "git.countBadge": "off",
     "explorer.compactFolders": false,
+    
+
+    "window.commandCenter": false,
 
     // ==============================================================================
     //
@@ -158,6 +158,8 @@
         "editor.defaultFormatter": "charliermarsh.ruff",
         // "editor.formatOnType": true,
         // "editor.formatOnSave": true,
+
+        // "python.analysis.typeCheckingMode": "basic"
     },
     "[cpp]": {
         "editor.formatOnType": true,
@@ -213,7 +215,7 @@
     "git.ignoreLegacyWarning": true,
     "git.enableSmartCommit": true,
     "workbench.startupEditor": "none",
-    "update.mode": "default",
+    "update.mode": "none",
     "clangd.path": "c:\\Users\\Alden\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\17.0.3\\clangd_17.0.3\\bin\\clangd.exe",
     "editor.renderWhitespace": "none",
     "diffEditor.ignoreTrimWhitespace": false,
@@ -222,8 +224,6 @@
     ],
     "terminal.integrated.defaultProfile.windows": "PowerShell",
 
-    "window.commandCenter": false,
-    "update.enableWindowsBackgroundUpdates": false,
    
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
@@ -232,17 +232,12 @@
 
     "C_Cpp.intelliSenseEngine": "disabled",
 
-    "cmake.showOptionsMovedNotification": false,
-    
-
     "highlightOnCopy.timeout": 75,
     "highlightOnCopy.backgroundColor": "rgba(230, 97, 89, 0.7)",
-    "extensions.autoCheckUpdates": false,
-    "extensions.autoUpdate": false,
     "window.density.editorTabHeight": "compact",
-    
-    // "editor.lineNumbers": "relative",
-    // "clangd.detectExtensionConflicts": false,
-    // "editor.scrollbar.vertical": "hidden",
-    // "workbench.editor.editorActionsLocation": "hidden",
+    "extensions.autoUpdate": false,
+    "telemetry.telemetryLevel": "off",
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    "extensions.autoCheckUpdates": false,
+
 }
