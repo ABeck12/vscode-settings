@@ -5,7 +5,7 @@
     // Themes
     "workbench.colorTheme": "PyCharm Night Theme",
     "workbench.iconTheme": "material-icon-theme",
-    // "workbench.productIconTheme": "fluent-icons",
+    "workbench.productIconTheme": "fluent-icons",
     "material-icon-theme.folders.color": "#c09553",
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.hidesExplorerArrows": true,
@@ -222,5 +222,4 @@
     "telemetry.telemetryLevel": "off",
     "dotnetAcquisitionExtension.enableTelemetry": false,
     "extensions.autoCheckUpdates": false,
-    "workbench.productIconTheme": "material-product-icons",
 }
