@@ -1,0 +1,206 @@
+.monaco-editor .suggest-widget .monaco-list-row {
+    left: -2px !important;
+    width: calc(100% + 2px) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-"] {
+    font-size: 14px;
+    display: inline-block !important;
+    height: inherit !important;
+    min-width: 2em;
+    padding-left: 0;
+    margin-right: 0.75em !important;
+    line-height: 2em;
+    line-height: 1.5em;
+}
+
+:root {
+    --color-attribute: #79b8ff;
+    --color-builtin: #b392f0; 
+    --color-class: #ff9800; 
+    --color-function: #b392f0; 
+    --color-property: #79b8ff; 
+    --color-snippet: #53585e; 
+    --color-tag: #79b8ff; 
+    --color-boolean: #53585e; 
+    --color-enum: #79b8ff; 
+    --color-event: #ff9800; 
+    --color-field: #79b8ff; 
+    --color-interface: #79b8ff; 
+    --color-key: #ff9800; 
+    --color-namespace: #53585e; 
+    --color-null: #53585e; 
+    --color-number: #53585e;
+    --color-object: #79b8ff;
+    --color-operator: #b392f0;
+    --color-reference: #53585e;
+    --color-string: #608B4E;
+    --color-struct: #53585e;
+    --color-text: #608B4E;
+    --color-type-parameter: #53585e;
+    --color-unit: #53585e;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-attribute"] {
+    color: var(--color-attribute) !important;
+    background: color-mix(in srgb, var(--color-attribute) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-builtin"] {
+    color: var(--color-builtin) !important;
+    background: color-mix(in srgb, var(--color-builtin) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-class"] {
+    color: var(--color-class) !important;
+    background: color-mix(in srgb, var(--color-class) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-constant"] {
+    color: var(--color-attribute) !important;
+    background: color-mix(in srgb, var(--color-attribute) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-function"] {
+    color: var(--color-function) !important;
+    background: color-mix(in srgb, var(--color-function) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-import"] {
+    color: var(--color-builtin) !important;
+    background: color-mix(in srgb, var(--color-builtin) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-keyword"] {
+    color: var(--color-builtin) !important;
+    background: color-mix(in srgb, var(--color-builtin) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-method"] {
+    color: var(--color-function) !important;
+    background: color-mix(in srgb, var(--color-function) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-module"] {
+    color: var(--color-builtin) !important;
+    background: color-mix(in srgb, var(--color-builtin) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-mixin"] {
+    color: var(--color-class) !important;
+    background: color-mix(in srgb, var(--color-class) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-package"] {
+    color: var(--color-builtin) !important;
+    background: color-mix(in srgb, var(--color-builtin) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-property"] {
+    color: var(--color-property) !important;
+    background: color-mix(in srgb, var(--color-property) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-require"] {
+    color: var(--color-builtin) !important;
+    background: color-mix(in srgb, var(--color-builtin) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-snippet"] {
+    color: var(--color-snippet) !important;
+    background: color-mix(in srgb, var(--color-snippet) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-tag"] {
+    color: var(--color-tag) !important;
+    background: color-mix(in srgb, var(--color-tag) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-type"] {
+    color: var(--color-class) !important;
+    background: color-mix(in srgb, var(--color-class) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-value"] {
+    color: var(--color-property) !important;
+    background: color-mix(in srgb, var(--color-property) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-variable"] {
+    color: var(--color-tag) !important;
+    background: color-mix(in srgb, var(--color-tag) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-selector"] {
+    color: var(--color-attribute) !important;
+    background: color-mix(in srgb, var(--color-attribute) 30%, rgba(0,0,0,256) 100%) !important;
+}
+
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-boolean"] {
+    color: var(--color-boolean) !important;
+    background: color-mix(in srgb, var(--color-boolean) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-enum"] {
+    color: var(--color-enum) !important;
+    background: color-mix(in srgb, var(--color-enum) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-event"] {
+    color: var(--color-event) !important;
+    background: color-mix(in srgb, var(--color-event) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-field"] {
+    color: var(--color-field) !important;
+    background: color-mix(in srgb, var(--color-field) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-interface"] {
+    color: var(--color-interface) !important;
+    background: color-mix(in srgb, var(--color-interface) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-key"] {
+    color: var(--color-key) !important;
+    background: color-mix(in srgb, var(--color-key) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-namespace"] {
+    color: var(--color-namespace) !important;
+    background: color-mix(in srgb, var(--color-namespace) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-null"] {
+    color: var(--color-null) !important;
+    background: color-mix(in srgb, var(--color-null) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-number"] {
+    color: var(--color-number) !important;
+    background: color-mix(in srgb, var(--color-number) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-object"] {
+    color: var(--color-object) !important;
+    background: color-mix(in srgb, var(--color-object) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-operator"] {
+    color: var(--color-operator) !important;
+    background: color-mix(in srgb, var(--color-operator) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-reference"] {
+    color: var(--color-reference) !important;
+    background: color-mix(in srgb, var(--color-reference) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-string"] {
+    color: var(--color-string) !important;
+    background: color-mix(in srgb, var(--color-string) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-struct"] {
+    color: var(--color-struct) !important;
+    background: color-mix(in srgb, var(--color-struct) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-text"] {
+    color: var(--color-text) !important;
+    background: color-mix(in srgb, var(--color-text) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-type-parameter"] {
+    color: var(--color-type-parameter) !important;
+    background: color-mix(in srgb, var(--color-type-parameter) 30%, rgba(0,0,0,256) 100%) !important;
+}
+.monaco-editor .suggest-widget .codicon[class*="codicon-symbol-unit"] {
+    color: var(--color-unit) !important;
+    background: color-mix(in srgb, var(--color-unit) 30%, rgba(0,0,0,256) 100%) !important;
+}
