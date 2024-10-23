@@ -20,48 +20,45 @@
         "command": "cursorRight",
         "when": "editorTextFocus"
     },
-    
     {
         "key": "ctrl+y",
         "command": "editor.action.revealDefinition",
         "when": "editorTextFocus"
     },
-
     {
-        "key": "ctrl+up",         // whatever keybinding you want
+        "key": "ctrl+up", // whatever keybinding you want
         "command": "cursorMove",
-        "args":{
-            "to":"prevBlankLine"
+        "args": {
+            "to": "prevBlankLine"
         },
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+down",        // whatever keybinding you want
+        "key": "ctrl+down", // whatever keybinding you want
         "command": "cursorMove",
-        "args":{
-            "to":"nextBlankLine",
+        "args": {
+            "to": "nextBlankLine",
         },
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+shift+up",         // whatever keybinding you want
+        "key": "ctrl+shift+up", // whatever keybinding you want
         "command": "cursorMove",
-        "args":{
-            "to":"prevBlankLine",
+        "args": {
+            "to": "prevBlankLine",
             "select": true
         },
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+shift+down",        // whatever keybinding you want
+        "key": "ctrl+shift+down", // whatever keybinding you want
         "command": "cursorMove",
-        "args":{
-            "to":"nextBlankLine",
+        "args": {
+            "to": "nextBlankLine",
             "select": true
         },
         "when": "editorTextFocus"
     },
-
     {
         "key": "ctrl+tab",
         "command": "workbench.action.nextEditor"
@@ -70,12 +67,16 @@
         "key": "ctrl+shift+tab",
         "command": "workbench.action.previousEditor"
     },
-
-
-
-
     {
         "key": "ctrl+alt+,",
         "command": "workbench.action.openSettingsJson"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.navigateForward"
     }
 ]
